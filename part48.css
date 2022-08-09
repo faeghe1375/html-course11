@@ -1,0 +1,30 @@
+/* .div-1{
+  display: table;
+  padding: 20px;
+  background-color: pink;
+  border: 2px solid gray;
+  width: 300px;
+  height: 500px;
+}
+.div-2{
+  display: table-cell;
+  background-color: #dddd;
+  width: 100px;
+  height: 100px;
+}
+.div-3{
+  display: table-cell;
+  background-color:salmon;
+  width: 100px;
+  height: 100px
+} */
+.outer{
+  border:2px solid lightcoral;
+  padding: 20px;
+  background-color: lightpink;
+  display: contents;
+}
+.inner{
+  padding: 20px;
+  background-color: #dddd;
+}
